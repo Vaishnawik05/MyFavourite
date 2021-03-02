@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background: linear-gradient(#120640 10%, #0e0eeb 64%, #00d4ff 100%);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#welcome {
+    text-align: center;
+    text-shadow: 2px 2px #F8BBDO;
+    font-size: 20px;
+    font-family: 'RocknRoll One', sans-serif;
+    z-index: 9;
+}
+
+#img {
+    text-align: center;
+    margin-top: 80;
+    align-content: center;
+    border-radius: 50%;
+    width: 100px;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    font-family: 'RocknRoll One', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.links {
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 15px;
+    display: inline;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    color: black;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links:hover {
+    background-color: deepskyblue;
+}
